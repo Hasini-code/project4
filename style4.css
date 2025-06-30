@@ -1,0 +1,64 @@
+/* Base Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header select {
+  padding: 8px 12px;
+  margin-top: 10px;
+}
+
+main {
+  text-align: center;
+  padding: 40px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+/* Light Theme */
+.light-theme {
+  background-color: #ffffff;
+  color: #333;
+}
+.light-theme header {
+  background: #f4f4f4;
+}
+.light-theme footer {
+  background: #f4f4f4;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+.dark-theme header {
+  background: #1e1e1e;
+}
+.dark-theme footer {
+  background: #1e1e1e;
+}
+
+/* Pastel Theme */
+.pastel-theme {
+  background-color: #ffe5ec;
+  color: #4a4a4a;
+}
+.pastel-theme header {
+  background: #fcd5ce;
+}
+.pastel-theme footer {
+  background: #fcd5ce;
+}
